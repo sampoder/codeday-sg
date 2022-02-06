@@ -194,7 +194,7 @@ export default function App() {
             id="submit"
             as="form"
             method="POST"
-            action="https://airtable-forms-proxy.innovationcircuit.co/api/appD6mrDPbe6cLQeP/Registrations?redirect=https://innovation-challenge.co/welcome"
+            action="https://airtable-forms-proxy.innovationcircuit.co/api/appD6mrDPbe6cLQeP/Registrations?redirect=https://codeday-sg.innovationcircuit.co?signedup=true"
             sx={{
               fontSize: 2,
               py: 0,
