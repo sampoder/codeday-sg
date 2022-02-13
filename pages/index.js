@@ -10,6 +10,7 @@ export default function App() {
     <Box>
       {router.query.signedup && <Box bg={'#56ca53'} color={'white'} sx={{textAlign: 'center', py:2, fontWeight: 600, fontSize: 2}}>Succesfully signed up for CodeDay Singapore!</Box>}
       <Head>
+        <script src="https://embed.small.chat/TKM55CBL5C02UQJDS0MA.js" />
         <meta property="og:site_name" content="CodeDay" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link
