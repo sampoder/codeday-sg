@@ -18,7 +18,7 @@ export default function App() {
           sizes="180x180"
           href="https://event.codeday.org/apple-touch-icon.png"
         />
-        <meta property="og:image" content="https://f2.codeday.org/d5pti1xheuyu/2esqghno5k8kTWXpaQfdLX/39132e429ced0d6062bae80e4f82f21a/377780_10151151458906332_289308676_n.jpg">
+        <meta property="og:image" content="https://f2.codeday.org/d5pti1xheuyu/2esqghno5k8kTWXpaQfdLX/39132e429ced0d6062bae80e4f82f21a/377780_10151151458906332_289308676_n.jpg" />
         <link
           rel="icon"
           type="image/png"
