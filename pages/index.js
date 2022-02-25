@@ -132,7 +132,7 @@ export default function App() {
           my={2}
           sx={{ border: '1px solid', borderColor: 'sunken', borderRadius: 6 }}
         >
-          🛠 Start building it! (Beginner workshops - no experience needed!)
+          🛠 Start building it! (+ beginner workshops - no experience needed!)
         </Box>
         <Box
           bg="snow"
