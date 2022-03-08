@@ -8,7 +8,15 @@ export default function App() {
   const router = useRouter()
   return (
     <Box>
-      {router.query.signedup && <Box bg={'#56ca53'} color={'white'} sx={{textAlign: 'center', py:2, fontWeight: 600, fontSize: 2}}>Succesfully signed up for CodeDay Singapore!</Box>}
+      {router.query.signedup && (
+        <Box
+          bg={'#56ca53'}
+          color={'white'}
+          sx={{ textAlign: 'center', py: 2, fontWeight: 600, fontSize: 2 }}
+        >
+          Succesfully signed up for the CodeDay Singapore waitlist!
+        </Box>
+      )}
       <Head>
         <script src="https://embed.small.chat/TKM55CBL5C02UQJDS0MA.js" />
         <meta property="og:site_name" content="CodeDay" />
@@ -18,7 +26,10 @@ export default function App() {
           sizes="180x180"
           href="https://event.codeday.org/apple-touch-icon.png"
         />
-        <meta property="og:image" content="https://f2.codeday.org/d5pti1xheuyu/2esqghno5k8kTWXpaQfdLX/39132e429ced0d6062bae80e4f82f21a/377780_10151151458906332_289308676_n.jpg" />
+        <meta
+          property="og:image"
+          content="https://f2.codeday.org/d5pti1xheuyu/2esqghno5k8kTWXpaQfdLX/39132e429ced0d6062bae80e4f82f21a/377780_10151151458906332_289308676_n.jpg"
+        />
         <link
           rel="icon"
           type="image/png"
@@ -190,8 +201,14 @@ export default function App() {
       <Box bg="primary" color="white" py={4}>
         <Container variant="copy">
           <Heading mb={2} sx={{ fontSize: 4 }}>
-            Register for CodeDay
+            Join The Waitlist
           </Heading>
+          <Box sx={{borderRadius: 4, bg: 'white', color: 'black', p: '12px', my: 2, mt: 3}}>
+            Unfortunately, we've hit our (COVID-related) capacity limit. To keep
+            attendees safe we can't process further registrations, however, we
+            expect places to come up and will offer them directly to people who
+            joined the waitlist on a first-come-first-serve basis.
+          </Box>
           <Box
             id="submit"
             as="form"
@@ -235,10 +252,11 @@ export default function App() {
                 bg: 'white',
                 color: 'black',
                 borderRadius: '6px',
-                fontSize: 1
+                fontSize: 1,
+                mt: 2
               }}
             >
-              Register for CodeDay
+              Join The Waitlist
             </Button>
           </Box>
         </Container>
