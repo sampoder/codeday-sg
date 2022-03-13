@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@hackclub/icons": "^0.0.9",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.4",
     "@the-innovation-circuit/meta": "^1.1.0",
