@@ -85,7 +85,7 @@ export default function App() {
         }}
       >
         <Container py={5} sx={{ minHeight: '90vh', textAlign: 'center', px: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <Box sx={{minWidth: '600px'}}>
+          <Box sx={{minWidth: ['200px', '400px', '600px']}}>
             <img
               src="https://cloud-i7e0fez7u-hack-club-bot.vercel.app/0codeday-notext-white.png"
               height="90px"
