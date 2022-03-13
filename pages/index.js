@@ -17,7 +17,6 @@ export default function App() {
         </Box>
       )}
       <Head>
-        <script src="https://embed.small.chat/TKM55CBL5C02UQJDS0MA.js" />
         <meta property="og:site_name" content="CodeDay" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link
