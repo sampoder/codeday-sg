@@ -26,7 +26,7 @@ export default function App() {
         />
         <meta
           property="og:image"
-          content="https://f2.codeday.org/d5pti1xheuyu/2esqghno5k8kTWXpaQfdLX/39132e429ced0d6062bae80e4f82f21a/377780_10151151458906332_289308676_n.jpg"
+          content="https://cloud-diyr52p88-hack-club-bot.vercel.app/020220312_124621.jpg"
         />
         <link
           rel="icon"
