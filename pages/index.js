@@ -115,6 +115,7 @@ export default function App() {
                   bg: 'rgba(0, 0, 18, 0.6)'
                 }}
                 name="Email"
+                required
                 placeholder="Enter your email for updates about next season"
               />
               <Button
